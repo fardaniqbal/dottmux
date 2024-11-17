@@ -9,7 +9,9 @@ then in your home directory add symlinks to this repo's `.tmux` and
 ```bash
 mkdir -p ~/dotfiles
 cd ~/dotfiles
-git clone --recurse-submodules git@github.com:fardaniqbal/dottmux.git
+git clone --recurse-submodules https://github.com/fardaniqbal/dottmux
+# Or git clone --recurse-submodules git@github.com:fardaniqbal/dottmux.git
+# to clone through ssh.
 ln -si dotfiles/dottmux/.tmux ~/.tmux
 ln -si dotfiles/dottmux/.tmux.conf ~/.tmux.conf
 ```
